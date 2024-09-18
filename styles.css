@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c3f9c8; 
+    color: #f1553a; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #b5f49f;
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #3E2723; /* Título em chocolate */
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+select, input[type="text"], button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #af594c; 
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50; /* Cor do padrão do botão */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Cor do botão quando passar o mouse */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f9f1cd;
+    border: 1px solid #4CAF50; 
+    border-radius: 5px;
+}
+
+.tarefa.verde {
+    border-left: 5px solid #4CAF50;
+}
+
+.tarefa.azul {
+    border-left: 5px solid #2196F3;
+}
+
+.tarefa.chocolate {
+    border-left: 5px solid #3E2723;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.data-hora {
+    margin-left: 10px;
+    color: #666;
+}
+
+.editar {
+    background-color: #2196F3; 
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    text-align: right;
+}
+
+.remover {
+    background-color: #f44336; 
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    text-align: right; 
+}
+
+.remover:hover {
+    background-color: #d32f2f; 
+}
+
+.editar:hover {
+    background-color: #1976D2; 
+}
